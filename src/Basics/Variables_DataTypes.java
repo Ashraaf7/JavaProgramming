@@ -1,4 +1,4 @@
-package anti;
+package Basics;
 
 public class Variables_DataTypes { //pascal
 

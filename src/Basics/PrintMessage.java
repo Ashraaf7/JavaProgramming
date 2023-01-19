@@ -1,6 +1,4 @@
-package anti;
-
-import java.util.Scanner;
+package Basics;
 
 public class PrintMessage { //pascal
 

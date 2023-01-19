@@ -1,4 +1,4 @@
-package anti;
+package Basics;
 
 import java.util.Scanner;
 
