@@ -14,6 +14,7 @@ public class Functions { //pascal
        int ay7aga = CalcSum(10,20,30);
         System.out.println(ay7aga);
         System.out.println(CalcAvg2(ay7aga));
+        Print(ay7aga,CalcAvg2(ay7aga));
 
     }
         //define
@@ -35,6 +36,10 @@ public class Functions { //pascal
     public  static  int CalcAvg2(int ay7aga)
     {
         return ay7aga/3 ;
+    }
+    public  static  void Print (int s , int a)
+    {
+        System.out.println("Sum: " + s + " Avg: " +a);
     }
 
 
