@@ -1,6 +1,6 @@
 package Basics;
 
-import OOP.Doctors;
+import PV.Doctors;
 
 public class Comments { //pascal
 

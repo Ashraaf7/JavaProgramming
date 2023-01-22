@@ -1,5 +1,7 @@
 package OOP;
 
+import PV.Doctors;
+
 import java.util.Scanner;
 
 public class First {
@@ -50,11 +52,13 @@ public class First {
         Students.compare(s1 ,s2);
         Students.copy(s6 , s1);
         System.out.println(s6.Name);*/
-        Encapsulation e = new Encapsulation();
-        e.SetUser(111);
-        e.SetPass(123);
-        System.out.println(e.GetUser() );
-        System.out.println(e.GetPass() );;
+        Doctors d = new Doctors();
+        d.Name = "Ahmed";
+        d.Explain(d.Name);
+        d.Explain();
+
+        Students s = new Students();
+        s.Play();
 
     }
 

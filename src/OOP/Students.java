@@ -1,15 +1,13 @@
 package OOP;
 
-public class Students {
+public class Students extends ParentClass {
     //attributes
-    protected String Name ;
-   public  static int count = 0 ;
-    public  int Id;
-    public String Subject ;
+
 
     //methods
     public Students ()
     {
+
     }
     public Students (String name , int id , String subject)
     {
@@ -44,6 +42,12 @@ public class Students {
         s1.Id = s2.Id;
         s1.Subject = s2.Subject;
 
+    }
+ //Overriding
+    @Override
+    public void  Play()
+    {
+        System.out.println("Can Play");
     }
 
 }

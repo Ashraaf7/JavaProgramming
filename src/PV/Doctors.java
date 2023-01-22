@@ -1,11 +1,10 @@
-package OOP;
+package PV;
 
- public class Doctors {
+import OOP.ParentClass;
+
+public class Doctors extends ParentClass {
     //Attributes
-    protected String Name ;
-    public  static int count = 0 ;
-    public  int Id;
-    public String Subject ;
+
     public int salary;
 
 
@@ -14,8 +13,15 @@ package OOP;
     {
         System.out.println( this.Name +" Explains now ");
     }
+
+    //overloading
+    public  void Explain ()
+    {
+        System.out.println(" Explains now ");
+    }
     public  void Countt()
     {
        count++;
     }
+
 }
