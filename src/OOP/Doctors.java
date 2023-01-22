@@ -1,8 +1,9 @@
 package OOP;
 
-public class Doctors {
+ public class Doctors {
     //Attributes
-    public String Name ;
+    protected String Name ;
+    public  static int count = 0 ;
     public  int Id;
     public String Subject ;
     public int salary;
@@ -12,5 +13,9 @@ public class Doctors {
     public void Explain (String Name)
     {
         System.out.println( this.Name +" Explains now ");
+    }
+    public  void Countt()
+    {
+       count++;
     }
 }
