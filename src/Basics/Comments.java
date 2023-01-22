@@ -1,6 +1,5 @@
 package Basics;
 
-import Inheritance.Doctors;
 
 public class Comments { //pascal
 
@@ -13,7 +12,6 @@ public class Comments { //pascal
         Line
         Comment
          */
-        Doctors doctors = new Doctors();
 
         }
 
