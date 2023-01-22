@@ -10,7 +10,7 @@ package OOP;
 
 
     //Methods
-    public void Explain (String Name)
+    public  void Explain (String Name)
     {
         System.out.println( this.Name +" Explains now ");
     }
