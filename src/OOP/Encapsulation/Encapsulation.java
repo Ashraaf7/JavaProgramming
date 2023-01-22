@@ -1,9 +1,10 @@
-package OOP;
+package OOP.Encapsulation;
 
 public class Encapsulation {
     private int user ;
     private int pass ;
-
+    public  Encapsulation()
+    {}
     public Encapsulation(int u, int p) {
         this.user = user;
         this.pass = pass;

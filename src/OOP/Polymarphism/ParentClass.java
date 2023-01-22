@@ -1,4 +1,4 @@
-package OOP;
+package OOP.Polymarphism;
 
 public class ParentClass {
     protected String Name ;

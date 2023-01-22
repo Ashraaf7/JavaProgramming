@@ -1,6 +1,6 @@
 package Basics;
 
-import PV.Doctors;
+import Inheritance.Doctors;
 
 public class Comments { //pascal
 

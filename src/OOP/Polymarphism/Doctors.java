@@ -1,6 +1,5 @@
-package PV;
+package OOP.Polymarphism;
 
-import OOP.ParentClass;
 
 public class Doctors extends ParentClass {
     //Attributes
